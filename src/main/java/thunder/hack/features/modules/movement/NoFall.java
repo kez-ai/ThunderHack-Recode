@@ -17,7 +17,7 @@ import thunder.hack.utility.player.SearchInvResult;
 
 public class NoFall extends Module {
     public NoFall() {
-        super("NoFall", Category.MOVEMENT);
+        super("safelegs", Category.MOVEMENT);
     }
 
     public final Setting<Mode> mode = new Setting<>("Mode", Mode.Rubberband);
