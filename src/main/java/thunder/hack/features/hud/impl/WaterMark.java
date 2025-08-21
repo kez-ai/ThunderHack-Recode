@@ -25,7 +25,7 @@ import java.util.Date;
 
 public class WaterMark extends HudElement {
     public WaterMark() {
-        super("WaterMark", 100, 35);
+        super("freepromo", 100, 35);
     }
 
     public static final Setting<Mode> mode = new Setting<>("Mode", Mode.Big);
