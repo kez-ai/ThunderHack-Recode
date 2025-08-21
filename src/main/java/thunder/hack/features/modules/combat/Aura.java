@@ -166,7 +166,7 @@ public class Aura extends Module {
     static boolean wasTargeted = false;
 
     public Aura() {
-        super("Aura", Category.COMBAT);
+        super("cluster fucker", Category.COMBAT);
     }
 
     private float getRange(){
